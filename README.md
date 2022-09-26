@@ -18,9 +18,17 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
+```python
+num_words=0
+with open('shara.txt','r') as file1:
+    for i in file1:
+        word=i.split()
+        num_words += len(word)
+print('num of words={}'.format(num_words))        
+ ```       
 
 ### OUTPUT:
-
+![output](/wordcount.png)
 
 
 ## RESULT:
