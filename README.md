@@ -25,6 +25,8 @@ Calling the function and Printing the number of words
 
 ## PROGRAM:
 ```python
+#Developed by: sharangini TK
+#Register num: 22003363
 num_words=0
 with open('shara.txt','r') as file1:
     for i in file1:
